@@ -1,0 +1,4 @@
+authorizationServiceUrl: http://google.com.vn
+mockUrl: localhost.com
+fixedAccessToken: accessToken
+clientSecretTrustedDevice: trusted

@@ -1,0 +1,6 @@
+envConfigUrl: https://envconfig.karrostech.io/
+serviceUrl: https://parentportallitegateway-p01-stage.usw2.karrostech.net/
+mockUrl: http://localhost
+
+clientSecretToken: 138abf2e93cf885379c77054e15673e73fe70b5117f42ca498a42c3955e1658b
+apikeyToken: c62ac14ec31ffdd04d98268aeb6ec3b5244b1bcf

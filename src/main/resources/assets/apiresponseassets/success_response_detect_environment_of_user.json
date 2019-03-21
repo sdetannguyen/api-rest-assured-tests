@@ -1,0 +1,16 @@
+{
+  "serviceCode": 7000,
+  "serviceMessage": "",
+  "data": {
+    "envName": "stage",
+    "gateways": [
+      {
+        "appName": "Parent Portal Lite",
+        "endpoint": "https://parentportallitegateway-p01-stage.usw2.karrostech.net"
+      }
+    ],
+    "isDefault": false,
+    "envId": "00000003",
+    "tenants": []
+  }
+}
