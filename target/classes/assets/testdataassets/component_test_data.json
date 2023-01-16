@@ -1,0 +1,32 @@
+{
+  "dataForComponentTest-pool-1": {
+    "userId": "test+automationtest1@karrostech.com",
+    "password": "Admin@123",
+    "registrationCodeAllVehicles": "75949343",
+    "registrationCodeExclude": "78067204",
+    "registrationCodeInclude": "39099821",
+    "nonExistRegistrationCode": "1234abcd",
+    "page": "0",
+    "size": "25",
+    "tenantIdforKP5902": "3c418d5c-dce2-46c7-95ef-0c071b78ccd6",
+
+    "vehicleId1": "27ddc93f-5b2a-45de-900c-2d5f54c69e9b",
+    "vehicleId2": "65f8d5b6-a1b7-4b6a-8be9-abb4502a0517",
+    "tenantIdToGetLastLocation": "5b9997bb-0919-4b41-a389-a7a61c4fbf97",
+
+    "studentIdUpdate": "2755175a-bbae-426e-87cb-20bc88dbad41",
+    "existingDistrictId": "345876",
+    "existingSchoolId": "f9f950fe-5c9b-408c-8587-c30cd39e13b6",
+    "existingSchoolCode": "schoolCode001"
+  },
+  "dataForEnvironmentTest-pool-1": {
+    "userId": "test+stage007@karrostech.com",
+    "password": "Admin@123",
+    "nonExistingUserId": "test+nonexisting@karrostech.com",
+    "PPL_endpoint": "https://parentportallitegateway-p01-prod.usw1.karrostech.net",
+    "PP_endpoint": "https://parentportalgateway-p01-prod.usw1.karrostech.net",
+    "SM_endpoint": "https://systemmanagementgateway-p01-prod.usw1.karrostech.net",
+    "MC_endpoint": "https://missioncontrolgateway-p01-prod.usw1.karrostech.net",
+    "IN_endpoint": "https://gateway-p01-prod.usw1.karrostech.net"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "serviceCode": 7000,
+  "serviceMessage": "",
+  "data": {
+    "envName": "stage",
+    "gateways": [
+      {
+        "appName": "System Management",
+        "endpoint": "https://systemmanagementgateway-p01-stage.usw2.karrostech.net"
+      }
+    ],
+    "commonGateways": [
+      {
+        "appName": "Application Feature Management",
+        "endpoint": "https://afm-stage.karrostech.io"
+      }
+    ],
+    "isDefault": false,
+    "envId": "00000003"
+  }
+}

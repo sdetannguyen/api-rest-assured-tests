@@ -1,0 +1,59 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "paging": {
+    "totalElements": 2,
+    "totalPages": 1,
+    "currentPage": 0,
+    "elementsInPage": 25,
+    "sort": null
+  },
+  "vehicles": [
+    {
+      "id": "4cb9ea09-e8b3-4b02-8154-42c960b21ca1",
+      "createdDatetime": 1555496349000,
+      "tenantId": "874c834b-7f50-43be-97d7-e456d2f3003e",
+      "busNumber": "H4",
+      "vehicleTenantMapping": null,
+      "description": null,
+      "licenseexpire": null,
+      "licensenumber": null,
+      "licensestate": null,
+      "manufacturer": null,
+      "model": null,
+      "name": "Vehicle 4",
+      "statenumber": null,
+      "statenumberExpire": null,
+      "status": null,
+      "updatedDatetime": 1555496349703,
+      "vin": "VehicleTestVin004",
+      "year": null,
+      "deviceId": null,
+      "deviceModel": "ABCXYZ4",
+      "deviceBrand": "Brand1"
+    },
+    {
+      "id": "be0dc281-1247-4647-aa64-307b268379c7",
+      "createdDatetime": 1555492891000,
+      "tenantId": "874c834b-7f50-43be-97d7-e456d2f3003e",
+      "busNumber": "H2",
+      "vehicleTenantMapping": null,
+      "description": null,
+      "licenseexpire": null,
+      "licensenumber": null,
+      "licensestate": null,
+      "manufacturer": null,
+      "model": null,
+      "name": "Vehicle 2",
+      "statenumber": null,
+      "statenumberExpire": null,
+      "status": null,
+      "updatedDatetime": 1555492890502,
+      "vin": "VehicleTestVin002",
+      "year": null,
+      "deviceId": null,
+      "deviceModel": "ABCXYZ2",
+      "deviceBrand": "Brand1"
+    }
+  ]
+}

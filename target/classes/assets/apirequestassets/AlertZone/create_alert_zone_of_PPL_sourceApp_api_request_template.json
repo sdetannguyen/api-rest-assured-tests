@@ -1,0 +1,24 @@
+{
+  "registrationCodeNumber": "66973921",
+  "alertZoneId": "80e7dddb-f60c-4678-972e-77099af43bdb",
+  "busNumber": "38",
+  "registrationCodeName": "code for auto 1",
+  "registrationCodeId": "440b935e-8346-41b3-88db-15c74d1b6e45",
+  "enabled": false,
+  "alertZoneAddress": "1300 W Broadway, Hopewell, VA 23860, USA",
+  "deviceId": "23130B52-0473-4F20-83E3-7E096A27A661",
+  "userId": "test+automationtest1@karrostech.com",
+  "alertZoneFromTime": "01:20",
+  "alertZoneName": "create alertzone auto 1",
+  "vehicleId": "f6a191bd-4a56-446d-9182-f4094fd854d1",
+  "alertZoneLocation": {
+    "type": "circle",
+    "coordinates": [-77.298579923808575, 37.302590754995272],
+    "radius": "0.7mi"
+  },
+  "sourceApp": "PPL",
+  "alertZoneToTime": "09:00",
+  "pushNotification": false,
+  "busName": "Su Auto 3 only",
+  "timeZone": "+07:00"
+}

@@ -1,0 +1,32 @@
+{
+  "select": {
+    "includes": [],
+    "excludes": []
+  },
+  "query": {
+    "tenantid": "65b9371b-10e1-4c85-b2a3-a271628b0345",
+    "unitid": [],
+    "eventid": [],
+    "busid": [],
+    "eventtime": [
+      {
+        "from": "1554050700000",
+        "to": "1554052500000"
+      },
+      {
+        "from": "1554137100000",
+        "to": "1554138900000"
+      }
+    ],
+    "location_distance": [],
+    "location_polygon": [],
+    "sort": [
+      {
+        "field": "eventtime",
+        "order": "asc"
+      }
+    ]
+  },
+  "page": "0",
+  "size": 10000
+}

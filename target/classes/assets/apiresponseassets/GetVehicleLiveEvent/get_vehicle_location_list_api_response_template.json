@@ -1,0 +1,18 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": [
+    {
+      "vehicleId": "27ddc93f-5b2a-45de-900c-2d5f54c69e9b",
+      "lastUpdateTime": 1544608813006,
+      "latitude": 26.1759471,
+      "longitude": -80.160781
+    },
+    {
+      "vehicleId": "65f8d5b6-a1b7-4b6a-8be9-abb4502a0517",
+      "lastUpdateTime": 1544608813006,
+      "latitude": 37.29911556848868,
+      "longitude": -77.29717268465943
+    }
+  ]
+}

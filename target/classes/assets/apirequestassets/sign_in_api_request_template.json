@@ -1,0 +1,8 @@
+{
+  "password": "Admin@123",
+  "clientId": "c62ac14ec31ffdd04d98268aeb6ec3b5244b1bcf",
+  "grantType": "resource_owner",
+  "clientSecret": "138abf2e93cf885379c77054e15673e73fe70b5117f42ca498a42c3955e1658b",
+  "email": "test+stage009@karrostech.com",
+  "scope": "Parent Portal Lite"
+}

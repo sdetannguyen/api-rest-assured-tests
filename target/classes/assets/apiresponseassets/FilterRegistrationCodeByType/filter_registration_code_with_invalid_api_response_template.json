@@ -1,0 +1,12 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": null,
+  "paging": {
+    "totalElements": 0,
+    "totalPages": 1,
+    "currentPage": 0,
+    "elementsInPage": 0,
+    "sort": []
+  }
+}

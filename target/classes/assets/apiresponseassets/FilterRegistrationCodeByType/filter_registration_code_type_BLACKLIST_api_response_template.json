@@ -1,0 +1,41 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": [
+    {
+      "displayname": "KP-5902-Code-Exclude",
+      "enddatetime": 1589129999999,
+      "description": null,
+      "blacklist": [
+        {
+          "assetid": null,
+          "busnumber": "H9",
+          "busname": "Vehicle 9 ",
+          "vehicleid": "7d12d3c1-5f57-4ed6-ba8a-0ce2ee9b94da",
+          "category": "VEHICLE",
+          "deviceid": null
+        },
+        {
+          "assetid": null,
+          "busnumber": "H10",
+          "busname": "Vehicle 10",
+          "vehicleid": "82458ac6-d787-4352-8cab-84b9a506c819",
+          "category": "VEHICLE",
+          "deviceid": null
+        }
+      ],
+      "whitelist": [],
+      "registrationcode": "46355319",
+      "id": "6317ff3f-5c4e-44e7-95fe-3e5f8daad6c7",
+      "startdatetime": 1557479145499,
+      "status": "Active"
+    }
+  ],
+  "paging": {
+    "totalElements": 1,
+    "totalPages": 1,
+    "currentPage": 0,
+    "elementsInPage": 1,
+    "sort": []
+  }
+}

@@ -1,0 +1,7 @@
+envConfigUrl:
+serviceUrl:
+mockUrl: http://localhost
+eurekaUrl:
+
+clientSecretToken:
+apikeyToken:

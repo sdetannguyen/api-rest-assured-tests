@@ -1,0 +1,7 @@
+{
+  "tokenType": "Bearer",
+  "expiresIn": 3600,
+  "personId": "5c07f732-c715-4bfa-80a8-111cafbbd713",
+  "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8va2Fycm9zdGVjaC5pbyIsInN1YiI6ImVjNTQ5ZDU3LTNkZmMtNDU3ZS05YTA4LTE0MGMyYTZmMWMxOCIsInBlcnNvbklkIjoiNWMwN2Y3MzItYzcxNS00YmZhLTgwYTgtMTExY2FmYmJkNzEzIiwidXNlcklkIjoidGVzdCtzdGFnZTAwOUBrYXJyb3N0ZWNoLmNvbSIsImlhdCI6MTU1MzQ5NzAwMCwiZXhwIjoxNTUzNTAwNjAwLCJhdWQiOiJjNjJhYzE0ZWMzMWZmZGQwNGQ5ODI2OGFlYjZlYzNiNTI0NGIxYmNmIiwic2NvcGUiOlsiKjpQYXJlbnQ6VXNlciJdLCJhdXRob3JpemF0aW9uIjp7Imdyb3VwcyI6W119fQ.xblfTxM7OPUI9OBFfqAavlCqcCdDxD2lHTSbNDR6jA0",
+  "refreshToken": "480be50e356c076d7ebdda9e4ac2e7d7872bc418fa287bca021ea321fd4218b5"
+}

@@ -1,0 +1,27 @@
+{
+  "tripType": "fromSchool",
+  "runId": "05564e96-a024-4314-8252-2b0b7240ec1d",
+  "schoolId": "d248eada-75ec-49ba-b974-e43c71a3835a",
+  "studentFirstName": "Dailiana",
+  "alertZoneFromTime": "07:10",
+  "busNumber": "207196",
+  "vehicleId": "0012b351-4fa3-48ba-b846-e9a284bdc4f5",
+  "busName": "Auto 1 only",
+  "routeCode": "26",
+  "tripFrequency": "MTWRF--",
+  "alertZoneId": "114e4723-0ec4-4436-b86a-77e85c7bea3b",
+  "studentId": "d4a4a114-a7f7-4a1e-81ff-270ec3443813",
+  "routeId": "05c7f909-9186-4faf-b724-18b663fec65d",
+  "enabled": true,
+  "tripId": "6570993c-a064-4074-9532-25288fd9fe28",
+  "timeZone": "+07:00",
+  "alertZoneLocation": {
+    "type": "circle",
+    "coordinates": [-77.299426149104761, 37.296267165122501],
+    "radius": "0.5mi"
+  },
+  "sourceApp": "PP",
+  "alertZoneToTime": "09:38",
+  "studentLastName": "alvarado",
+  "userId": "test+automations001@karrostech.com"
+}

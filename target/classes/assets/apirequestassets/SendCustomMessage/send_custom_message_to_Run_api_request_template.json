@@ -1,0 +1,10 @@
+{
+  "tenantId": "65b9371b-10e1-4c85-b2a3-a271628b0345",
+  "sender": "admin@edulog.com",
+  "targetType": "RUN",
+  "targetIdentity": {
+    "string": "100.005"
+  },
+  "receiver": "TO_TOPIC",
+  "content": "test send custom message to run"
+}

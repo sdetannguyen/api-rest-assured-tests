@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-parentPortalLiteTestSuite">
+              <span class="suite-name border-passed">parentPortalLiteTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-parentPortalLiteTestSuite">
+                    <span>GetEnvironmentOfUserTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-parentPortalLiteTestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-parentPortalLiteTestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-parentPortalLiteTestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-parentPortalLiteTestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-parentPortalLiteTestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-parentPortalLiteTestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-parentPortalLiteTestSuite" class="hide-methods passed suite-parentPortalLiteTestSuite"> (hide)</a> <!-- hide-methods passed suite-parentPortalLiteTestSuite -->
+                      <a href="#" panel-name="suite-parentPortalLiteTestSuite" class="show-methods passed suite-parentPortalLiteTestSuite"> (show)</a> <!-- show-methods passed suite-parentPortalLiteTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-parentPortalLiteTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5460_Verify_get_environment_of_IN_user_successful">KP_5460_Verify_get_environment_of_IN_user_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5460_Verify_get_environment_of_MC_user_successful">KP_5460_Verify_get_environment_of_MC_user_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5460_Verify_get_environment_of_PPL_user_successful">KP_5460_Verify_get_environment_of_PPL_user_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5460_Verify_get_environment_of_PP_user_successful">KP_5460_Verify_get_environment_of_PP_user_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5460_Verify_get_environment_of_SM_user_successful">KP_5460_Verify_get_environment_of_SM_user_successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5461_Verify_get_environment_with_non_existing_IN_user">KP_5461_Verify_get_environment_with_non_existing_IN_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5461_Verify_get_environment_with_non_existing_MC_user">KP_5461_Verify_get_environment_with_non_existing_MC_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5461_Verify_get_environment_with_non_existing_PPL_user">KP_5461_Verify_get_environment_with_non_existing_PPL_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5461_Verify_get_environment_with_non_existing_PP_user">KP_5461_Verify_get_environment_with_non_existing_PP_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5461_Verify_get_environment_with_non_existing_SM_user">KP_5461_Verify_get_environment_with_non_existing_SM_user</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header">KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header">KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header">KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header">KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parentPortalLiteTestSuite" title="testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest" hash-for-method="KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header">KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-parentPortalLiteTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-parentPortalLiteTestSuite" class="panel parentPortalLiteTestSuite">
+          <div class="suite-parentPortalLiteTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5460_Verify_get_environment_of_IN_user_successful">
+                  </a> <!-- KP_5460_Verify_get_environment_of_IN_user_successful -->
+                  <span class="method-name">KP_5460_Verify_get_environment_of_IN_user_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5460_Verify_get_environment_of_MC_user_successful">
+                  </a> <!-- KP_5460_Verify_get_environment_of_MC_user_successful -->
+                  <span class="method-name">KP_5460_Verify_get_environment_of_MC_user_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5460_Verify_get_environment_of_PPL_user_successful">
+                  </a> <!-- KP_5460_Verify_get_environment_of_PPL_user_successful -->
+                  <span class="method-name">KP_5460_Verify_get_environment_of_PPL_user_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5460_Verify_get_environment_of_PP_user_successful">
+                  </a> <!-- KP_5460_Verify_get_environment_of_PP_user_successful -->
+                  <span class="method-name">KP_5460_Verify_get_environment_of_PP_user_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5460_Verify_get_environment_of_SM_user_successful">
+                  </a> <!-- KP_5460_Verify_get_environment_of_SM_user_successful -->
+                  <span class="method-name">KP_5460_Verify_get_environment_of_SM_user_successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5461_Verify_get_environment_with_non_existing_IN_user">
+                  </a> <!-- KP_5461_Verify_get_environment_with_non_existing_IN_user -->
+                  <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_IN_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5461_Verify_get_environment_with_non_existing_MC_user">
+                  </a> <!-- KP_5461_Verify_get_environment_with_non_existing_MC_user -->
+                  <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_MC_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5461_Verify_get_environment_with_non_existing_PPL_user">
+                  </a> <!-- KP_5461_Verify_get_environment_with_non_existing_PPL_user -->
+                  <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_PPL_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5461_Verify_get_environment_with_non_existing_PP_user">
+                  </a> <!-- KP_5461_Verify_get_environment_with_non_existing_PP_user -->
+                  <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_PP_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5461_Verify_get_environment_with_non_existing_SM_user">
+                  </a> <!-- KP_5461_Verify_get_environment_with_non_existing_SM_user -->
+                  <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_SM_user</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header">
+                  </a> <!-- KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header -->
+                  <span class="method-name">KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header">
+                  </a> <!-- KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header -->
+                  <span class="method-name">KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header">
+                  </a> <!-- KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header -->
+                  <span class="method-name">KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header">
+                  </a> <!-- KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header -->
+                  <span class="method-name">KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header">
+                  </a> <!-- KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header -->
+                  <span class="method-name">KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parentPortalLiteTestSuite-class-passed -->
+        </div> <!-- panel parentPortalLiteTestSuite -->
+        <div panel-name="test-xml-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/annguyenxuan1991/Public/KarrosSource/apiAutomation/src/test/java/testsuites/GetEnvironmentOfUserTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;parentPortalLiteTestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Get Environment Of User test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Get Environment Of User test --&gt;
+&lt;/suite&gt; &lt;!-- parentPortalLiteTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for parentPortalLiteTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Get Environment Of User test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for parentPortalLiteTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for parentPortalLiteTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_parentPortalLiteTestSuite');
+function tableData_parentPortalLiteTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'KP_5460_Verify_get_environment_of_IN_user_successful')
+data.setCell(0, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(0, 3, 2753);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'KP_5460_Verify_get_environment_of_MC_user_successful')
+data.setCell(1, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(1, 3, 1686);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'KP_5460_Verify_get_environment_of_PPL_user_successful')
+data.setCell(2, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(2, 3, 1504);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'KP_5460_Verify_get_environment_of_PP_user_successful')
+data.setCell(3, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(3, 3, 1352);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'KP_5461_Verify_get_environment_with_non_existing_IN_user')
+data.setCell(4, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(4, 3, 1236);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'KP_5461_Verify_get_environment_with_non_existing_MC_user')
+data.setCell(5, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(5, 3, 1035);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header')
+data.setCell(6, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(6, 3, 921);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'KP_5460_Verify_get_environment_of_SM_user_successful')
+data.setCell(7, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(7, 3, 918);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'KP_5461_Verify_get_environment_with_non_existing_SM_user')
+data.setCell(8, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(8, 3, 899);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'KP_5461_Verify_get_environment_with_non_existing_PP_user')
+data.setCell(9, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(9, 3, 898);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'KP_5461_Verify_get_environment_with_non_existing_PPL_user')
+data.setCell(10, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(10, 3, 849);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header')
+data.setCell(11, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(11, 3, 710);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header')
+data.setCell(12, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(12, 3, 508);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header')
+data.setCell(13, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(13, 3, 504);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header')
+data.setCell(14, 2, 'testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest')
+data.setCell(14, 3, 491);
+window.suiteTableData['parentPortalLiteTestSuite']= { tableData: data, tableDiv: 'times-div-parentPortalLiteTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-parentPortalLiteTestSuite">
+              </div> <!-- times-div-parentPortalLiteTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for parentPortalLiteTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-parentPortalLiteTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testscripts.componentTest.envConfLambdaFunctions.GetEnvironmentOfUserAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">KP_5460_Verify_get_environment_of_IN_user_successful</span>
+                <span class="method-start">3629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">6391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5460_Verify_get_environment_of_MC_user_successful</span>
+                <span class="method-start">6392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">8079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5460_Verify_get_environment_of_PPL_user_successful</span>
+                <span class="method-start">8079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">9584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5460_Verify_get_environment_of_PP_user_successful</span>
+                <span class="method-start">9584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">10937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5460_Verify_get_environment_of_SM_user_successful</span>
+                <span class="method-start">10937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">11855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_IN_user</span>
+                <span class="method-start">11855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">13092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_MC_user</span>
+                <span class="method-start">13092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">14128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_PPL_user</span>
+                <span class="method-start">14128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">14978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_PP_user</span>
+                <span class="method-start">14978 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">15876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5461_Verify_get_environment_with_non_existing_SM_user</span>
+                <span class="method-start">15877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">16777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5462_Verify_get_environment_of_IN_user_with_missing_apikey_header</span>
+                <span class="method-start">16778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">17269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5462_Verify_get_environment_of_MC_user_with_missing_apikey_header</span>
+                <span class="method-start">17269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">17777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5462_Verify_get_environment_of_PPL_user_with_missing_apikey_header</span>
+                <span class="method-start">17778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">18700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5462_Verify_get_environment_of_PP_user_with_missing_apikey_header</span>
+                <span class="method-start">18700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">19410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">KP_5462_Verify_get_environment_of_SM_user_with_missing_apikey_header</span>
+                <span class="method-start">19411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">19916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">19916 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

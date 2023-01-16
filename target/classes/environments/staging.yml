@@ -1,0 +1,22 @@
+envConfigUrl: https://envconfig.karrostech.io
+serviceUrl: https://parentportallitegateway-p01-stage.usw2.karrostech.net
+smGatewayUrl: https://systemmanagementgateway-p01-stage.usw2.karrostech.net
+pplGatewayUrl: https://parentportallitegateway-p01-stage.usw2.karrostech.net
+ppGatewayUrl: https://parentportalgateway-p01-stage.usw2.karrostech.net
+mockUrl: http://localhost
+eurekaUrl: http://eureka01-p01-stage.usw2.karrostech.net:1112
+
+clientSecretToken: 138abf2e93cf885379c77054e15673e73fe70b5117f42ca498a42c3955e1658b
+apikeyToken: c62ac14ec31ffdd04d98268aeb6ec3b5244b1bcf
+
+dbUrl: jdbc:postgresql://p01usw2stage.cjpkmgrb7fks.us-west-2.rds.amazonaws.com:5432/Edulog
+dbUserName: karros_prod_admin
+dbPassword: surr0nd3dDang3rN31ghb0rRhythm
+
+elasticUrl: e20f6fed69ae415483d527d15665f843.us-west-2.aws.found.io
+elasticPort: 9243
+elasticScheme: https
+elasticUserName: elastic
+elasticPassword: lwZ96p4ycTL8p4Jt9Iw4S9Pu
+elasticConnectionTimeout: 60000
+elasticSocketTimeout: 60000

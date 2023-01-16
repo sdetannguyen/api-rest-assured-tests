@@ -1,0 +1,53 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": [
+    {
+      "docId": "1dcb0c38-be1e-43e0-9ca8-ebb9e06173cc",
+      "data": {
+        "id": "1dcb0c38-be1e-43e0-9ca8-ebb9e06173cc",
+        "busid": "",
+        "tenantid": "5b9997bb-0919-4b41-a389-a7a61c4fbf97",
+        "vehicle_id": "86493b45-0fc4-4b98-bfdf-ae535d6a58e3",
+        "databaseinsertiontime": "2019-04-17 14:10:51.402",
+        "eventid": 1,
+        "eventtime": "2019-04-17 11:50:36.000",
+        "heading": 0,
+        "hdop": null,
+        "mileage": "657848.4891264",
+        "speed": 70.00646400000001,
+        "unitid": "",
+        "unitvendorid": "223de59e-487c-4754-b162-7679f75858f8",
+        "location": {
+          "lat": 26.138077,
+          "lon": -80.297261
+        }
+      }
+    },
+    {
+      "docId": "d260a28f-1add-421a-b0ff-5bf5d0fb49da",
+      "data": {
+        "id": "d260a28f-1add-421a-b0ff-5bf5d0fb49da",
+        "busid": "101HP0J53C1986218",
+        "tenantid": "5b9997bb-0919-4b41-a389-a7a61c4fbf97",
+        "vehicle_id": "5fd5fb58-17db-4c15-9dc9-a1cd2227da51",
+        "databaseinsertiontime": "2019-04-17 15:22:37.084",
+        "eventid": 1,
+        "eventtime": "2019-04-17 11:50:36.000",
+        "heading": 0,
+        "hdop": null,
+        "mileage": "657848.4891264",
+        "speed": 70.00646400000001,
+        "unitid": "8599581",
+        "unitvendorid": "223de59e-487c-4754-b162-7679f75858f8",
+        "location": {
+          "lat": 26.138204,
+          "lon": -80.296665
+        }
+      }
+    }
+  ],
+  "paging": null,
+  "bulksearchid": null,
+  "bulktimeoutinsecs": null
+}

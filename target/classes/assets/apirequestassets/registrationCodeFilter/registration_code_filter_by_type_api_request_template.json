@@ -1,0 +1,26 @@
+{
+  "select": {
+    "includes": [
+      "id",
+      "displayname",
+      "registrationcode",
+      "description",
+      "startdatetime",
+      "enddatetime",
+      "status",
+      "blacklist",
+      "whitelist",
+      "vehicleAvailabilitytype"
+    ],
+    "excludes": []
+  },
+  "query": {
+    "accept": {
+      "tenantid": "",
+      "vehicleavailabilitytype": [
+      ]
+    }
+  },
+  "page": 0,
+  "size": 25
+}

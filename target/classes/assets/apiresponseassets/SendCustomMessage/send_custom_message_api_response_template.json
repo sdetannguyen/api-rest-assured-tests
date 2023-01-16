@@ -1,0 +1,9 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": {
+    "numberOfMessageSent": 1,
+    "numberOfFailure": 0,
+    "errors": []
+  }
+}

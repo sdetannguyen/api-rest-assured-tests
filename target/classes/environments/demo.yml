@@ -1,0 +1,7 @@
+envConfigUrl:
+serviceUrl:
+mockUrl: http://localhost
+eurekaUrl: http://eureka01-p01-demo.usw2.karrostech.net:1112
+
+clientSecretToken:
+apikeyToken:

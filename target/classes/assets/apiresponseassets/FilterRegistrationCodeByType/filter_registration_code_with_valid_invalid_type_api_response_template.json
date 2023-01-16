@@ -1,0 +1,88 @@
+{
+  "serviceCode": null,
+  "serviceMessage": null,
+  "result": [
+    {
+      "displayname": "KP-5902-Code-All",
+      "enddatetime": 1589129999999,
+      "description": null,
+      "blacklist": [],
+      "whitelist": [],
+      "registrationcode": "32175258",
+      "id": "b3606218-da8b-42f5-8acc-448561e9e33a",
+      "startdatetime": 1557479085901,
+      "status": "Active"
+    },
+    {
+      "displayname": "KP-5902-Code-Exclude",
+      "enddatetime": 1589129999999,
+      "description": null,
+      "blacklist": [
+        {
+          "assetid": null,
+          "busnumber": "H9",
+          "busname": "Vehicle 9 ",
+          "vehicleid": "7d12d3c1-5f57-4ed6-ba8a-0ce2ee9b94da",
+          "category": "VEHICLE",
+          "deviceid": null
+        },
+        {
+          "assetid": null,
+          "busnumber": "H10",
+          "busname": "Vehicle 10",
+          "vehicleid": "82458ac6-d787-4352-8cab-84b9a506c819",
+          "category": "VEHICLE",
+          "deviceid": null
+        }
+      ],
+      "whitelist": [],
+      "registrationcode": "46355319",
+      "id": "6317ff3f-5c4e-44e7-95fe-3e5f8daad6c7",
+      "startdatetime": 1557479145499,
+      "status": "Active"
+    },
+    {
+      "displayname": "KP-5902-Code-Include",
+      "enddatetime": 1589129999999,
+      "description": null,
+      "blacklist": [],
+      "whitelist": [
+        {
+          "assetid": null,
+          "busnumber": "H8",
+          "busname": "Vehicle 8 ",
+          "vehicleid": "24bc24c5-7f89-4039-9a3f-f43eb11837e6",
+          "category": "VEHICLE",
+          "deviceid": null
+        },
+        {
+          "assetid": null,
+          "busnumber": "H6",
+          "busname": "Vehicle 6",
+          "vehicleid": "42fd3b7f-93f6-4ef0-b4f5-f5cae3c678d1",
+          "category": "VEHICLE",
+          "deviceid": null
+        },
+        {
+          "assetid": null,
+          "busnumber": "H7",
+          "busname": "Vehicle 7",
+          "vehicleid": "67693792-2e50-4777-8023-0390bc426b89",
+          "category": "VEHICLE",
+          "deviceid": null
+        }
+      ],
+      "registrationcode": "33224110",
+      "id": "4cc4bd70-a6a0-4516-bddc-4b9a85d96c8a",
+      "startdatetime": 1557479111269,
+      "status": "Active"
+    }
+  ],
+  "paging": {
+    "totalElements": 3,
+    "totalPages": 1,
+    "currentPage": 0,
+    "elementsInPage": 3,
+    "sort": []
+  }
+}
